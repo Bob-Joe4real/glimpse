@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>GLIMPSE SOLUTION</title>
+     <link rel="stylesheet" href="glimpse.css">
+</head>
+<body>
+     <img src="images\graphic.png" title="graphics">
+     <div class="G">
+          <h1>GLIMPSE <br><small>SOLUTIONS</small></h1>
+     </div>
+     <div class="frame"> 
+          <h3><a href="offer.html">WHAT WE OFFER:</a></h3>
+     </div>
+     <button class="btn-open-popup" onclick="togglePopup()"> LOG IN</button>
+
+     <div id="popupOverlay" class="overlay-container"> 
+          <div class="popup-box">
+               <!-- <h2 style="color: green;"> kindly Login</h2> -->
+               <form class="form-container">
+                    <label class="form-label" for="name">
+                         Username:
+                    </label>
+                    <input class="form-input" type="text"
+                    placeholder="Enter Your Username"
+                    id="name" name="name required">
+                    <label class="form-label" for="email">Email:</label>
+                    <input class="form-input" type="email" placeholder="Enter Your Email"
+                    id="email"
+                    name="email" required>
+                    <label class="form-label" for="name">
+                         Password:
+                    </label>
+                    <input class="form-input" type="text"
+                    placeholder="Enter Your Password"
+                    id="name" name="name required">
+                    <button class="btn-submit" type="submit">Submit</button>
+               </form>
+               <button class="btn-close-popup"
+               onclick="togglePopup()">Close</button>
+          </div>
+     </div>
+     <p>Copyright 2025 &copy;. Bob-joe 
+          <br><br><br>
+     
+     </p>
+     <script src="what.js"></script>
+
+</body>
+</html>
